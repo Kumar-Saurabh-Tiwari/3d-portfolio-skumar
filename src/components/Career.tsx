@@ -15,58 +15,45 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Co-Founder</h4>
-                <h5>CallHQ.ai</h5>
+                <h4>Full Stack Developer</h4>
+                <h5>CTO Ninja</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>Dec 2023–Apr 2026</h3>
             </div>
             <p>
-              Building CallHQ.ai, a voice AI platform for
-              automating customer calls, support, and conversions.
+              Architected backend systems with optimized schemas, secure REST
+              APIs, and cloud-ready deployment. Built performant Next.js
+              frontends with advanced state management and responsive design,
+              plus CI/CD pipelines with automated testing and reviews.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Adobe</h4>
-                <h5>6+ years · Noida</h5>
+                <h4>Full Stack Developer</h4>
+                <h5>PAN Global Network (Featured Project)</h5>
               </div>
-              <h3>2017–24</h3>
+              <h3>Featured</h3>
             </div>
             <p>
-              Senior Lead Software Engineer (Feb 2024 – May 2024). Lead Software
-              Engineer (Feb 2021 – Feb 2024). Software Engineer II (Dec 2017 –
-              Feb 2021): internationalization, globalization, and localization for
-              Adobe Technical Communication Suite; functional and linguistic testing
-              strategy; in-house tooling; collaboration with product and engineering
-              for high-quality localized releases.
+              Architected and deployed a production-scale membership platform
+              with role-based access, real-time chat, forums, and secure resource
+              management. Integrated Google Calendar, Eventbrite, and Luma APIs
+              for centralized event orchestration.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Consultant</h4>
-                <h5>Genpact Headstrong </h5>
+                <h4>Web Developer</h4>
+                <h5>RoboFly Technology Pvt Ltd</h5>
               </div>
-              <h3>2016–17</h3>
+              <h3>Sep 2023–Dec 2023</h3>
             </div>
             <p>
-              Sep 2016 – Nov 2017. Developed and maintained WCF services consumed
-              by the UI; deployment support across environments; NUnit tests and
-              coverage; bug fixes from QA and users; database work.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Sf Engineer</h4>
-                <h5>Infogain</h5>
-              </div>
-              <h3>2013-16</h3>
-            </div>
-            <p>
-              Software engineering across enterprise projects, contributing to
-              design, development, and delivery of business applications.
+              Built responsive web apps with pixel-perfect UI components and
+              cross-browser compatibility, optimizing performance and
+              accessibility for consistent UX across platforms.
             </p>
           </div>
         </div>
