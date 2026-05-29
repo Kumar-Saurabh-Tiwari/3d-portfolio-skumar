@@ -30,21 +30,6 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>PAN Global Network (Featured Project)</h5>
-              </div>
-              <h3>Featured</h3>
-            </div>
-            <p>
-              Architected and deployed a production-scale membership platform
-              with role-based access, real-time chat, forums, and secure resource
-              management. Integrated Google Calendar, Eventbrite, and Luma APIs
-              for centralized event orchestration.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
                 <h4>Web Developer</h4>
                 <h5>RoboFly Technology Pvt Ltd</h5>
               </div>

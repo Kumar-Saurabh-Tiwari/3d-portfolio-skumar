@@ -4,47 +4,47 @@ import WorkImage from "./WorkImage";
 import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
-  {
+  { 
     title: "PAN Admin Dashboard",
     category: "Admin + Payments Platform",
     tools: "Next.js, MongoDB, Stripe",
-    image: "/images/placeholder.webp",
-    link: "https://portfolio.skumar.space",
+    image: "/images/pan-admin-dashboard.png",
+    link: "https://admin.panglobal.network",
   },
   {
     title: "MI-Recall Business Card Vault",
     category: "AI Knowledge Vault",
     tools: "React, Node.js, OpenAI",
-    image: "/images/placeholder.webp",
-    link: "https://portfolio.skumar.space",
+    image: "/images/mirecall-card-vault.png",
+    link: "https://mi-recall-business-contact-web.vercel.app",
   },
   {
     title: "CuraLink AI Health Assistant",
     category: "AI Health Assistant",
     tools: "React, Node.js, OpenAI",
-    image: "/images/placeholder.webp",
-    link: "https://portfolio.skumar.space",
+    image: "/images/curalink-health.png",
+    link: "https://curalink-ai-research.vercel.app/",
   },
-  {
-    title: "Foodie App — Ordering Platform",
-    category: "Ordering & Payments",
-    tools: "Angular, Node.js, Razorpay",
-    image: "/images/placeholder.webp",
-    link: "https://portfolio.skumar.space",
-  },
+  // {
+  //   title: "Foodie App — Ordering Platform",
+  //   category: "Ordering & Payments",
+  //   tools: "Angular, Node.js, Razorpay",
+  //   image: "/images/foodie-app.png",
+  //   link: "https://portfolio.skumar.space",
+  // },
   {
     title: "Roamify Tickets — Travel UI",
     category: "Responsive UI",
     tools: "React, Responsive Design",
-    image: "/images/placeholder.webp",
-    link: "https://portfolio.skumar.space",
+    image: "/images/roamify-website.png",
+    link: "https://www.roamifyllc.com",
   },
   {
     title: "SK Web Hub — Agency Landing",
     category: "Marketing Website",
     tools: "HTML, CSS, JavaScript",
-    image: "/images/placeholder.webp",
-    link: "https://portfolio.skumar.space",
+    image: "/images/sk-web.png",
+    link: "https://sk-web-hub.vercel.app/",
   },
 ];
 
