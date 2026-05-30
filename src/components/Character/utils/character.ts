@@ -16,18 +16,24 @@ const setCharacter = (
   const loadCharacter = () => {
     return new Promise<GLTF | null>(async (resolve, reject) => {
       try {
+        console.log("Starting character decryption...");
         const encryptedBlob = await decryptFile(
           "/models/character.enc?v=2",
           "MyCharacter12"
         );
+        console.log("Character decrypted, creating blob URL...");
         const blobUrl = URL.createObjectURL(new Blob([encryptedBlob]));
+        console.log("Blob URL created, loading GLTF...");
 
         let character: THREE.Object3D;
         loader.load(
           blobUrl,
           async (gltf) => {
+            console.log("GLTF loaded, preparing character...");
             character = gltf.scene;
-            await renderer.compileAsync(character, camera, scene);
+            // Note: Removing renderer.compileAsync as it was blocking the loading
+            // Compilation will happen automatically on first render
+            console.log("Character prepared successfully");
             character.traverse((child: any) => {
               if (child.isMesh) {
                 const mesh = child as THREE.Mesh;
@@ -67,8 +73,8 @@ const setCharacter = (
           }
         );
       } catch (err) {
+        console.error("Error in loadCharacter:", err);
         reject(err);
-        console.error(err);
       }
     });
   };
