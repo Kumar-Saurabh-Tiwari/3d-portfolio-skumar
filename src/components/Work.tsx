@@ -4,13 +4,6 @@ import WorkImage from "./WorkImage";
 import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
-  { 
-    title: "PAN Admin Dashboard",
-    category: "Admin + Payments Platform",
-    tools: "Next.js, MongoDB, Stripe",
-    image: "/images/pan-admin-dashboard.png",
-    link: "https://admin.panglobal.network",
-  },
   {
     title: "MI-Recall Business Card Vault",
     category: "AI Knowledge Vault",
@@ -24,6 +17,13 @@ const projects = [
     tools: "React, Node.js, OpenAI",
     image: "/images/curalink-health.png",
     link: "https://curalink-ai-research.vercel.app/",
+  },
+  { 
+    title: "PAN Admin Dashboard",
+    category: "Admin + Payments Platform",
+    tools: "Next.js, MongoDB, Stripe",
+    image: "/images/pan-admin-dashboard.png",
+    link: "https://admin.panglobal.network",
   },
   // {
   //   title: "Foodie App — Ordering Platform",
