@@ -41,7 +41,7 @@ const Contact = () => {
           </div>
           <div className="contact-box">
             <h4>Social</h4>
-            <a
+            {/* <a
               href="https://github.com/Kumar-Saurabh-Tiwari"
               target="_blank"
               rel="noreferrer"
@@ -49,7 +49,7 @@ const Contact = () => {
               className="contact-social"
             >
               GitHub <MdArrowOutward />
-            </a>
+            </a> */}
             <a
               href="https://www.linkedin.com/in/saurabh-tiwari11/"
               target="_blank"
