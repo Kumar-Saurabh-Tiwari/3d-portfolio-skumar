@@ -1,4 +1,4 @@
-import { FaEnvelope, FaLinkedinIn } from "react-icons/fa6";
+import { FaEnvelope, FaLinkedinIn, FaInstagram } from "react-icons/fa6";
 import "./styles/SocialIcons.css";
 import { TbNotes } from "react-icons/tb";
 import { useEffect } from "react";
@@ -70,6 +70,15 @@ const SocialIcons = () => {
             rel="noreferrer"
           >
             <FaLinkedinIn />
+          </a>
+        </span>
+        <span>
+          <a
+            href="https://www.instagram.com/skumar_webtech"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaInstagram />
           </a>
         </span>
         <span>

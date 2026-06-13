@@ -20,11 +20,21 @@ const Contact = () => {
               </a>
             </p>
             <p>
+              <a
+                href="https://www.instagram.com/skumar_webtech"
+                target="_blank"
+                rel="noreferrer"
+                data-cursor="disable"
+              >
+                Instagram — skumar_webtech
+              </a>
+            </p>
+            <p>
               <a href="mailto:hello@skumar.space" data-cursor="disable">
                 Email — hello@skumar.space
               </a>
             </p>
-            <p>
+            {/* <p>
               <a
                 href="https://portfolio.skumar.space/contact"
                 target="_blank"
@@ -33,7 +43,7 @@ const Contact = () => {
               >
                 Contact Page — skumar.space
               </a>
-            </p>
+            </p> */}
             <h4>Highlights</h4>
             <p>4+ years experience</p>
             <p>30+ projects shipped</p>
@@ -60,6 +70,15 @@ const Contact = () => {
               LinkedIn <MdArrowOutward />
             </a>
             <a
+              href="https://www.instagram.com/skumar_webtech"
+              target="_blank"
+              rel="noreferrer"
+              data-cursor="disable"
+              className="contact-social"
+            >
+              Instagram <MdArrowOutward />
+            </a>
+            {/* <a
               href="https://portfolio.skumar.space/contact"
               target="_blank"
               rel="noreferrer"
@@ -67,7 +86,7 @@ const Contact = () => {
               className="contact-social"
             >
               Contact Page <MdArrowOutward />
-            </a>
+            </a> */}
             <a
               href="mailto:hello@skumar.space"
               target="_blank"
